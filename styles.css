@@ -1,0 +1,67 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #1b244a;
+}
+
+#tablo {
+  padding: 68px 82px;
+  margin: 0 auto;
+  width: 575px;
+  background-color: #1b244a;
+  color: #eeeeee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  border: 10px solid #9aabd8;
+  border-radius: 24px;
+  margin-top: 30px;
+}
+
+.scores {
+  width: 155px;
+  height: 120px;
+  background-color: black;
+  color: #f94f6d;
+}
+
+.score-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-card-btn {
+  font-family: Cursed Timer Ulil, sans-serif;
+  color: #9aabd8;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 22px;
+  border: 2px solid #9aabd8;
+  background-color: #1b244a;
+}
+
+.scores {
+  font-size: 120px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: Cursed Timer Ulil, sans-serif;
+  padding: 20px;
+  margin: 16px 0 26px 0;
+}
+
+#mode-btn {
+  font-family: Cursed Timer Ulil, sans-serif;
+  color: #9aabd8;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 22px;
+  border: 2px solid #9aabd8;
+  background-color: #1b244a;
+  margin: 20px;
+}

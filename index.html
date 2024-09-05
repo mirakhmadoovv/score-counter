@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+
+    <title>Scorer</title>
+  </head>
+  <body>
+    <button id="mode-btn" onclick="dark()">Light mode</button>
+    <div id="tablo">
+      <div class="home" id="home">
+        HOME
+        <div class="scores" id="home-score">0</div>
+        <div class="score-cards">
+          <button class="score-card-btn" id="score-card-btn" onclick="addHome1()">+1</button>
+          <button class="score-card-btn" id="score-card-btn" onclick="addHome2()">+2</button>
+          <button class="score-card-btn" id="score-card-btn" onclick="addHome3()">+3</button>
+        </div>
+      </div>
+
+      <div class="guest" id="guest">
+        GUEST
+        <div class="scores" id="guest-score">0</div>
+        <div class="score-cards">
+          <button class="score-card-btn" id="score-card-btn" onclick="addGuest1()">+1</button>
+          <button class="score-card-btn" id="score-card-btn" onclick="addGuest2()">+2</button>
+          <button class="score-card-btn" id="score-card-btn" onclick="addGuest3()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
