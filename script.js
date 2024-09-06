@@ -34,6 +34,7 @@ function addGuest3() {
   guestScore.textContent = countGuest;
 }
 
+
 // ——————————————————— dark mode ——————————————————— 
 
 
